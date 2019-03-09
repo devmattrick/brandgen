@@ -4,6 +4,9 @@ import Fuzzer from "./Fuzzer";
 
 const VOWEL_REGEX = /[aeiou]/g;
 
+/**
+ * Fuzzes names to remove vowels (and Ys) from them. Web 2.0-rrific!
+ */
 export default class RemoveVowelsFuzzer extends Fuzzer {
 
   public async fuzz(name: Name): Promise<Name[]> {

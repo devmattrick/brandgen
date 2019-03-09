@@ -11,8 +11,3 @@ export default abstract class Checker {
   public abstract async check(name: Name): Promise<boolean>;
 
 }
-
-export enum CheckerType {
-  DOMAIN,
-  USERNAME,
-}

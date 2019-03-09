@@ -20,3 +20,27 @@ Checks for GitHub user/ organization name availability.
 
 ### Instagram
 Checks for Instagram username availability.
+
+### NPM Package
+Checks for NPM Package name availability.
+
+### NPM Organization
+Checks for NPM Organization availability.
+
+## Fuzzers
+Fuzzers modify given names to slight variantions to make them more likely to be available.
+
+### Domain Hack
+Modifies names to include "domain hacks". For example, `reddit.com` produces `redd.it`.
+
+### Prefix
+Adds common prefixes to a name. For example, `example.com` becomes `theexample.com`.
+
+### Remove Vowels
+Removes vowels from the name. For example, `example.com` becomes `exmpl.com`.
+
+### Suffix
+Adds common suffixes to a name. For example, `example.com` becomes `examplehouse.com`.
+
+### Username Domain
+Adds a TLD to the end of a username. For example, `@example` becomes `@examplecom`.

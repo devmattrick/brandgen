@@ -1,4 +1,4 @@
-import tlds from "../../data/fuzzers/tlds";
+import tlds from "../data/fuzzers/tlds";
 import DomainName from "../model/DomainName";
 import Name from "../model/Name";
 import Fuzzer from "./Fuzzer";
